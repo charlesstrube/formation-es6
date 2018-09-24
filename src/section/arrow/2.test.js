@@ -1,5 +1,5 @@
 test('arr02', () => {
-    const filterOddNumbers = (num) => {
+    const filterOddNumbers = num => {
         return num % 2 === 0
     }
 

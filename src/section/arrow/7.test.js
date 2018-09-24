@@ -1,6 +1,6 @@
 test('arr07', () => {
-    const myObject = () => ({
-        test: bool
+    const myObject = bool => ({
+        bool
     })
-    console.log(myObject())
+    console.log(myObject(true))
 });

@@ -1,10 +1,10 @@
 
 
 test('arr06', () => {
-    const myArray = () => [
+    const myArray = (bool) => [
         bool,
         'YES'
     ]
 
-    console.log(myArray())
+    console.log(myArray(true))
 });
