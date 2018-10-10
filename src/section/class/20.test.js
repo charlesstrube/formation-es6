@@ -1,4 +1,4 @@
-test('class10', () => {
+test('class20', () => {
 
     class myClass {
         constructor(initial) {

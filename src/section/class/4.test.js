@@ -1,11 +1,14 @@
 test('class04', () => {
-    const id = 1
-    const text = 'pouet'
+    class myClass {
+        constructor() {
+            this._test = null
+        }
 
-    const obj = {
-        id: id,
-        text: text
+        set test (value) {
+            this._test = value
+        }
     }
 
-    console.log(obj)
+    const instance = new myClass()
+    instance.test = 'coucou, tu veux voir mon code ?'
 })

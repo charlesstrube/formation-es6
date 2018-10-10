@@ -1,9 +1,9 @@
-test('class07', () => {
+test('class16', () => {
     const id = 1
 
     const obj = {
         id,
-        text () {
+        text: function () {
             return 'pouet'
         }
     }

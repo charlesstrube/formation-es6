@@ -1,5 +1,5 @@
 test('class03', () => {
-    class maClass {
+    class myClass {
         constructor(initial) {
             this.test = initial
         }
@@ -9,7 +9,7 @@ test('class03', () => {
         }
     }
 
-    class mySuperClass extends maClass {
+    class mySuperClass extends myClass {
         constructor(initial) {
             super(initial)
         }
