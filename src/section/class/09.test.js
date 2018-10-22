@@ -1,15 +1,22 @@
 test('class09', () => {
     class myClass {
-        constructor() {
-            this._test = null
+        constructor(initial) {
+            this.test = initial
         }
 
-        get test () {
-            return this._test
+        changeTest () {
+            this.test = true
         }
     }
 
-    const instance = new myClass()
+    class mySuperClass extends myClass {
+        constructor(initial) {
+            super(initial)
+        }
+    }
+
+    const instance = new mySuperClass(false)
+    instance.changeTest()
 
     console.log(instance.test)
 })

@@ -1,8 +1,8 @@
-test('class20', () => {
+test('class21', () => {
 
     class myClass {
-        constructor(initial) {
-            this.test = initial
+        constructor() {
+            this.test = false
         }
 
         changeTest () {
@@ -17,5 +17,5 @@ test('class20', () => {
 
     myObj.changeTest()
 
-    console.log(myObj.test)
+    console.log(myObj.test, objInstance.test)
 })

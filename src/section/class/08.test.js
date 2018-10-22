@@ -1,14 +1,16 @@
-test('class04', () => {
+test('class08', () => {
     class myClass {
-        constructor() {
-            this._test = null
+        constructor(initial) {
+            this.test = initial
         }
 
-        set test (value) {
-            this._test = value
+        changeTest () {
+            this.test = true
         }
     }
 
-    const instance = new myClass()
-    instance.test = 'coucou, tu veux voir mon code ?'
+    const instance = new myClass(false)
+    instance.changeTest()
+
+    console.log(instance.test)
 })

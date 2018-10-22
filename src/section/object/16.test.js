@@ -1,8 +1,5 @@
 test('class16', () => {
-    const id = 1
-
     const obj = {
-        id,
         text: function () {
             return 'pouet'
         }
