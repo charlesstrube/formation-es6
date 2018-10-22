@@ -1,4 +1,4 @@
-test('class19', () => {
+test('obj19', () => {
     const var1 = 'oh'
     const var2 = 'lala'
 

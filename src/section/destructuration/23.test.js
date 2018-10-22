@@ -7,7 +7,7 @@ test('des23', () => {
         epsilode: 'ε'
     }
 
-    const myFunction = (object) => {
+    const myFunction = object => {
         console.log(object.alpha, object.delta)
     }
 

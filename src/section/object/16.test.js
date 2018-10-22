@@ -1,4 +1,4 @@
-test('class16', () => {
+test('obj16', () => {
     const obj = {
         text: function () {
             return 'pouet'

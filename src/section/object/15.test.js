@@ -1,4 +1,4 @@
-test('class15', () => {
+test('obj15', () => {
     const id = 1
     const text = 'pouet'
 

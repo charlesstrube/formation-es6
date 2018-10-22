@@ -7,7 +7,11 @@ test('des08', () => {
         'ε'
     ]
 
-    const [alpha, beta, ...rest] = alphabetGrec
+    const [alpha, beta] = alphabetGrec
+
+    const rest = alphabetGrec.filter(letter =>
+        letter !== alpha && letter !== beta
+    )
 
     console.log(rest)
 });

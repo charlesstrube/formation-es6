@@ -7,7 +7,7 @@ test('des21', () => {
         'ε'
     ]
 
-    const myFunction = (array) => {
+    const myFunction = array => {
         const alpha = array[0]
         const beta = array[1]
         console.log(alpha, beta)
