@@ -1,4 +1,4 @@
-test('class05', () => {
+test('class09', () => {
     class myClass {
         constructor() {
             this._test = null
@@ -10,5 +10,6 @@ test('class05', () => {
     }
 
     const instance = new myClass()
+
     console.log(instance.test)
 })

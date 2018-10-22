@@ -1,4 +1,4 @@
-test('class03', () => {
+test('class06', () => {
     class myClass {
         constructor(initial) {
             this.test = initial
@@ -9,13 +9,7 @@ test('class03', () => {
         }
     }
 
-    class mySuperClass extends myClass {
-        constructor(initial) {
-            super(initial)
-        }
-    }
-
-    const instance = new mySuperClass(false)
+    const instance = new myClass(false)
     instance.changeTest()
 
     console.log(instance.test)

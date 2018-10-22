@@ -3,7 +3,6 @@ test('var04', () => {
     myVar = false
     console.log(myVar)
 
-
     let myLet = true
     myLet = false
     console.log(myLet)
