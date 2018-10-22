@@ -1,4 +1,3 @@
-
 function myFunction () {
     console.log('myFunction -> this: ', this)
 }

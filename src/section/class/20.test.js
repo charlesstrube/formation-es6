@@ -1,5 +1,4 @@
 test('class20', () => {
-
     class myClass {
         constructor() {
             this.test = false
