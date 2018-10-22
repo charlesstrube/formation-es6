@@ -1,7 +1,7 @@
 
 
 test('arr06', () => {
-    const myArray = (bool) => [
+    const myArray = bool => [
         bool,
         'YES'
     ]
