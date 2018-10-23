@@ -1,6 +1,6 @@
 test('arr01', () => {
-    function myFunction (arg) {
-        return arg
+    function myFunction (param) {
+        return param
     }
     console.log(myFunction(true))
 });

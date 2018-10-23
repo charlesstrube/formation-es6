@@ -1,6 +1,6 @@
 test('arr02', () => {
-    const myFunction = (arg) => {
-        return arg
+    const myFunction = (param) => {
+        return param
     }
     console.log(myFunction(true))
 });
