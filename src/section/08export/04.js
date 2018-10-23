@@ -1,0 +1,1 @@
+export default myNumber => myNumber * 2
